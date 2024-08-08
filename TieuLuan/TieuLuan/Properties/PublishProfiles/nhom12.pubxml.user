@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/css/main.css">
+      <publishTime>08/04/2024 17:11:13</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/001.png">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/002.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/003.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/004.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/005.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/006.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/007.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/008.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/009.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/010.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/011.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/012.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/013.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/014.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/015.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/016.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/017.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/018.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/019.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/020.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/021.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/022.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/023.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/024.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/025.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/026.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/027.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/028.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/029.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/030.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/031.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/032.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/033.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/034.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/035.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/036.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/AnhSanPham/037.jpg">
+      <publishTime>07/28/2024 20:18:02</publishTime>
+    </File>
+    <File Include="assets/img/banner/bn.jpg">
+      <publishTime>07/25/2024 21:24:16</publishTime>
+    </File>
+    <File Include="assets/img/banner/bn1.jpg">
+      <publishTime>07/25/2024 21:24:16</publishTime>
+    </File>
+    <File Include="assets/img/banner/bn2.jpg">
+      <publishTime>07/25/2024 21:24:16</publishTime>
+    </File>
+    <File Include="assets/img/banner/bn3.jpg">
+      <publishTime>07/25/2024 21:24:16</publishTime>
+    </File>
+    <File Include="assets/img/banner/bn4.jpg">
+      <publishTime>07/25/2024 21:24:16</publishTime>
+    </File>
+    <File Include="assets/img/news/an-vat-9.jpg">
+      <publishTime>07/31/2024 13:53:16</publishTime>
+    </File>
+    <File Include="assets/img/news/nhung-mon-an-vat-tai-ha-noi-mua-dong-4.jpg">
+      <publishTime>07/31/2024 13:53:18</publishTime>
+    </File>
+    <File Include="assets/img/news/sua-chua-mit.jpg">
+      <publishTime>07/31/2024 13:53:20</publishTime>
+    </File>
+    <File Include="assets/img/news/tong-hop-cach-lam-cac-mon-an-vat-ha-noi-thom-ngon-don-gian-de-avt-1200x676.jpg">
+      <publishTime>07/31/2024 13:53:20</publishTime>
+    </File>
+    <File Include="assets/img/user.png">
+      <publishTime>07/25/2024 21:23:56</publishTime>
+    </File>
+    <File Include="assets/js/main.js">
+      <publishTime>07/26/2024 10:05:08</publishTime>
+    </File>
+    <File Include="assets/Nhom12.pdf">
+      <publishTime>08/04/2024 16:55:55</publishTime>
+    </File>
+    <File Include="assets/themify-icons-font/themify-icons/themify-icons.css">
+      <publishTime>07/25/2024 21:23:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/12/2022 02:09:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/25/2024 21:03:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/25/2024 21:03:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/25/2024 21:03:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>07/25/2024 21:03:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>07/25/2024 21:03:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>07/25/2024 21:03:48</publishTime>
+    </File>
+    <File Include="bin/TieuLuan.dll">
+      <publishTime>08/04/2024 17:18:15</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/25/2024 21:03:48</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/31/2024 21:32:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>07/25/2024 21:07:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>07/25/2024 21:07:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>07/25/2024 21:07:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/25/2024 21:07:36</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/25/2024 21:07:36</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/25/2024 21:07:36</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/25/2024 21:07:36</publishTime>
+    </File>
+    <File Include="Views/Home/about_us.cshtml">
+      <publishTime>07/26/2024 00:17:04</publishTime>
+    </File>
+    <File Include="Views/Home/Cac_mon_an_vat_vao_mua_dong_gia_chi_tu_10k.cshtml">
+      <publishTime>07/31/2024 13:51:30</publishTime>
+    </File>
+    <File Include="Views/Home/chitiettintuc.cshtml">
+      <publishTime>07/31/2024 13:51:46</publishTime>
+    </File>
+    <File Include="Views/Home/Doanhmuc.cshtml">
+      <publishTime>08/04/2024 16:08:39</publishTime>
+    </File>
+    <File Include="Views/Home/GioHang.cshtml">
+      <publishTime>08/04/2024 12:37:42</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/04/2024 17:13:42</publishTime>
+    </File>
+    <File Include="Views/Home/login.cshtml">
+      <publishTime>08/04/2024 17:25:34</publishTime>
+    </File>
+    <File Include="Views/Home/news.cshtml">
+      <publishTime>07/31/2024 14:05:34</publishTime>
+    </File>
+    <File Include="Views/Home/Nhung_mon_an_vat_tai_Ha_Noi_vao_mua_dong.cshtml">
+      <publishTime>07/31/2024 13:51:40</publishTime>
+    </File>
+    <File Include="Views/Home/products.cshtml">
+      <publishTime>08/04/2024 17:05:35</publishTime>
+    </File>
+    <File Include="Views/Home/product_detail.cshtml">
+      <publishTime>08/04/2024 14:42:34</publishTime>
+    </File>
+    <File Include="Views/Home/register.cshtml">
+      <publishTime>08/03/2024 15:42:06</publishTime>
+    </File>
+    <File Include="Views/Home/reset_password.cshtml">
+      <publishTime>07/26/2024 09:37:10</publishTime>
+    </File>
+    <File Include="Views/Home/SanPhamBanChay.cshtml">
+      <publishTime>08/04/2024 17:05:54</publishTime>
+    </File>
+    <File Include="Views/Home/search.cshtml">
+      <publishTime>08/04/2024 15:56:46</publishTime>
+    </File>
+    <File Include="Views/Home/Search_Products.cshtml">
+      <publishTime>08/01/2024 14:09:44</publishTime>
+    </File>
+    <File Include="Views/Home/SPLQ.cshtml">
+      <publishTime>07/31/2024 00:21:04</publishTime>
+    </File>
+    <File Include="Views/Home/ThanhToan.cshtml">
+      <publishTime>08/03/2024 23:49:02</publishTime>
+    </File>
+    <File Include="Views/Home/Top_21_mon_an_Ha_Noi_no_quen_loi_ve.cshtml">
+      <publishTime>07/31/2024 13:58:24</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutPage1.cshtml">
+      <publishTime>08/04/2024 17:07:37</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutPage2.cshtml">
+      <publishTime>07/31/2024 14:52:34</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutPage3.cshtml">
+      <publishTime>08/04/2024 12:08:18</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutPage4.cshtml">
+      <publishTime>08/04/2024 14:46:26</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutPage5.cshtml">
+      <publishTime>07/30/2024 22:33:20</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>07/25/2024 21:03:48</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/04/2024 17:18:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

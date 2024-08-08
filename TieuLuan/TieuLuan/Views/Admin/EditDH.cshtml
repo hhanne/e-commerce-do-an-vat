@@ -1,0 +1,63 @@
+﻿@model TieuLuan.Models.DonHang
+@{
+    ViewBag.Title = "EditDH";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+
+<h2>Sửa đơn hàng</h2>
+
+@using (Html.BeginForm("EditDH", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.HiddenFor(model => model.MaDH)
+    @*<div class="form-group">
+        @Html.LabelFor(model => model.MaKH, "Mã  ")
+        @Html.TextBoxFor(model => model.MaKH, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.TenKH, "Tên khách hàng")
+        @Html.TextBoxFor(model => model.TenKH, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email, "Email")
+        @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.SDT, "Số điện thoại")
+        @Html.TextBoxFor(model => model.SDT, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.DiaChi, "Địa chỉ")
+        @Html.TextBoxFor(model => model.DiaChi, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.NgayDat, "Ngày đặt")
+        @Html.TextBoxFor(model => model.NgayDat, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.MaSP, "Mã sản phẩm")
+        @Html.TextBoxFor(model => model.MaSP, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.HinhAnh, "Chọn file hình ảnh")
+        <input type="file" name="HinhAnh" class="form-control" accept="image/*" />
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.GiamGia, "Giá")
+        @Html.TextBoxFor(model => model.GiamGia, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.SoLuong, "Số lượng")
+        @Html.TextBoxFor(model => model.SoLuong, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.TongTien, "Sản phẩm nổi bật(0-Không nổi bật,1-Nổi bật)")
+        @Html.TextBoxFor(model => model.TongTien, new { @class = "form-control" })
+    </div>*@
+    <div class="form-group">
+        @Html.LabelFor(model => model.TrangThai, "Trạng thái giao hàng(0-Chưa giao,1-Đã giao)")
+        @Html.TextBoxFor(model => model.TrangThai, new { @class = "form-control" })
+    </div>
+    
+    <button type="submit" class="btn btn-success">Lưu</button>
+}
+

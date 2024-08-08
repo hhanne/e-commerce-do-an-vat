@@ -1,0 +1,74 @@
+﻿@using TieuLuan.Models;
+@model SanPham
+@{
+    ViewBag.Title = "chitiettintuc";
+    Layout = "~/Views/Shared/_LayoutPage4.cshtml";
+}
+
+<div class="card">
+    <img src="/assets/img/news/sua-chua-mit.jpg" class="card-img-top" alt="Card image" width="600" height="532">
+    <div class="card-body">
+        <h1 class="card-title">10 món ăn vặt khoái khẩu mùa hè của teen Hà thành</h1>
+        <p class="card-text">
+            <h5>1.Chè trân châu tự làm vừa đảm bảo vừa dễ ăn</h5>
+            <h5>2.Tào phớ Tào phớ Hà Nội gắn liền với hình ảnh những chiếc xe bán rong với tiếng rao “Ai phớ đây” trong những buổi trưa nắng.</h5>
+            <h5>3.Sữa chua mít. Sữa chua mít hấp dẫn bởi những đồ đi kèm như thạch, trân châu</h5>
+            <h5>4.Hoa quả dầm. …</h5>
+            <h5>5.Caramen. …</h5>
+            <h5>6.Kem. …</h5>
+            <h5>7.Nước mía. …</h5>
+            <h5>8.Thạch dừa.</h5>
+        </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+</div>
+@section trai{
+
+    <ul>
+
+        @{
+            var DM = (DoanhMuc)ViewData["dm"];
+
+        }
+        @foreach (var dm in DM.doanhmuc)
+        {
+            <li class="nav-item" style="list-style-type:none">
+                <a class=" nav-link" href="/Home/Doanhmuc/@dm.MaDM">
+                    @dm.TenDM
+                </a>
+            </li>
+        }
+    </ul>
+}
+
+
+@section spbanchay{
+
+
+    @{
+        var SPBC = (SanPhamBanChay)ViewData["spbc"];
+
+    }
+    @foreach (var spbc in SPBC.spbc)
+    {
+
+        <li class="nav-item" style="list-style-type:none">
+            <a class="nav-link " style="color: #dd4b39;" href="/Home/SanPhamBanChay/@spbc.MaSP">
+                <div class="row" style="width: 100%;">
+
+                    <div class="col-sm-6 ">
+                        <img class="img-thumbnail" src="~/assets/img/anhsanpham/@spbc.HinhAnh" alt="" style="height:80px; width: 100%;">
+                    </div>
+                    <div class="col-sm-6 ">
+                        <b>@spbc.TenSP</b>
+                        <br>
+                        <p><del>@spbc.GiaBan</del>  @spbc.GiamGia</p>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+    }
+
+}
+

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<TieuLuan.Models.KhachHang>
+
+@{
+    ViewBag.Title = "DSKhachHang";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+
+<h2>Danh sách khách hàng</h2>
+
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID_KH</th>
+            <th>Tên khách hàng</th>
+            <th>EMAIL</th>
+            <th>Số điện thoại</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaKH</td>
+                <td>@item.TenKH</td>
+                <td>@item.Email</td>
+                <td>@item.SDT</td>
+                @*<td>@item.DiaChi</td>
+                <td>@item.NgayDat</td>
+                <td>@item.MaSP</td>
+                <td>@item.TenSP</td>
+                <td><img src="~/assets/img/anhsanpham/@item.HinhAnh" width="100" /></td>
+                <td>@item.GiamGia</td>
+                <td>@item.SoLuong</td>
+                <td>@item.TongTien</td>
+                <td>@item.TrangThai</td>
+                <td>
+                    <a href="@Url.Action("EditDH", new { id = item.MaDH })" class="btn btn-primary">Sửa</a>
+                    @using (Html.BeginForm("DeleteDH", "Admin", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.Hidden("id", item.MaDH)
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?');">Xóa</button>
+                    }
+                </td>*@
+            </tr>
+        }
+    </tbody>
+</table>
+
+

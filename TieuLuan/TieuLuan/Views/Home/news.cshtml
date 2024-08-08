@@ -1,0 +1,187 @@
+﻿@using TieuLuan.Models;
+@model SanPham
+          @{    
+    ViewBag.Title = "news";
+    Layout = "~/Views/Shared/_LayoutPage4.cshtml";
+}
+<div class="container">
+    <!--Section: News of the day-->
+    <section class="border-bottom pb-4 mb-5">
+        <div class="row gx-5">
+            <div class="col-md-6 mb-4">
+                <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                    <img src="~/assets/img/news/an-vat-9.jpg" class="img-fluid" />
+                    <a href="/Home/Cac_mon_an_vat_vao_mua_dong_gia_chi_tu_10k">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">News of the day</span>
+                <h4><strong>Các món ăn vặt vào mùa đông giá chỉ từ 10k</strong></h4>
+                <p class="text-muted">
+                    Cứ mỗi khi đông về là người ta lại luôn có cảm giác đói hơn và thèm ăn hơn.
+                    Để cứu đói cho mùa đông này, bạn hãy tham khảo ngay list đồ ăn vặt giá rẻ mùa đông dưới đây nhé!
+                </p>
+                <a href="/Home/Cac_mon_an_vat_vao_mua_dong_gia_chi_tu_10k" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </section>
+    <!--Section: News of the day-->
+    <!--Section: Content-->
+    <section>
+        <div class="row gx-lg-5" style="min-height:350px">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <!-- News block -->
+                <div>
+                    <!-- Featured image -->
+                    <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                         data-mdb-ripple-color="light">
+                        <img src="~/assets/img/news/nhung-mon-an-vat-tai-ha-noi-mua-dong-4.jpg" class="img-fluid" />
+                        <a href="/Home/Nhung_mon_an_vat_tai_Ha_Noi_vao_mua_dong">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <!-- Article data -->
+                    <div class="row mb-3">
+                        <div class="col-6">
+                        </div>
+                        <div class="col-6 text-end">
+                            <u> 15.07.2020</u>
+                        </div>
+                    </div>
+                    <!-- Article title and description -->
+                    <a href="/Home/Nhung_mon_an_vat_tai_Ha_Noi_vao_mua_dong" class="text-dark">
+                        <h5>Những món ăn vặt tại Hà Nội vào mùa đông</h5>
+                        <p>
+                            Hà Nội đang bước vào những ngày mùa đông lạnh giá. Và những ngày mùa đông Hà Nội sẽ trở nên đáng nhớ hơn,
+                            tinh tế hơn và ấm áp hơn nếu như chúng ta được thưởng thức những món ăn tuyệt vời.
+                        </p>
+                    </a>
+                    <hr />
+
+                </div>
+                <!-- News block -->
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- News block -->
+                <div max-height:250px>
+                    <!-- Featured image -->
+                    <div class="bg-image hover-overlay shadow-1-strong rounded-5 ripple mb-4"
+                         data-mdb-ripple-color="light">
+                        <img src="~/assets/img/news/tong-hop-cach-lam-cac-mon-an-vat-ha-noi-thom-ngon-don-gian-de-avt-1200x676.jpg" class="img-fluid"
+                             alt="Brooklyn Bridge" />
+                        <a href="/Home/chitiettintuc">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <!-- Article data -->
+                    <div class="row mb-3">
+                        <div class="col-6">
+                        </div>
+                        <div class="col-6 text-end">
+                            <u> 15.07.2020</u>
+                        </div>
+                    </div>
+                    <!-- Article title and description -->
+                    <a href="/Home/chitiettintuc" class="text-dark">
+                        <h5>21 món ăn mới lạ ở Hà Nội đảm bảo “no quên lối về</h5>
+                        <p>
+                            Danh sách những món ăn vặt ngon Hà Nội bên dưới đây sẽ không
+                            làm bạn thất vọng với những món ăn vừa mới lạ, vừa thân quen ở Hà Nội.
+                        </p>
+                    </a>
+                    <hr />
+
+                </div>
+                <!-- News block -->
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- News block -->
+                <div max-height:250px>
+                    <!-- Featured image -->
+                    <div class="bg-image hover-overlay shadow-1-strong rounded-5 ripple mb-4"
+                         data-mdb-ripple-color="light">
+                        <img src="~/assets/img/news/sua-chua-mit.jpg" class="img-fluid"
+                             alt="Golden Gate National Recreation Area" />
+                        <a href="/Home/Top_21_mon_an_Ha_Noi_no_quen_loi_ve">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <!-- Article data -->
+                    <div class="row mb-3">
+                        <div class="col-6">
+                        </div>
+                        <div class="col-6 text-end">
+                            <u> 15.07.2020</u>
+                        </div>
+                    </div>
+                    <!-- Article title and description -->
+                    <a href="/Home/Top_21_mon_an_Ha_Noi_no_quen_loi_ve" class="text-dark">
+                        <h5>10 món ăn vặt khoái khẩu mùa hè của teen Hà thành</h5>
+                        <p>
+                            Hoa quả dầm, caramen, sữa chua mít… lên ngôi mùa nắng nóng.
+                        </p>
+                    </a>
+                    <hr />
+                </div>
+                <!-- News block -->
+            </div>
+        </div>
+    </section>
+    <!--Section: Content-->
+
+</div>
+@section trai{
+
+    <ul>
+
+        @{
+            var DM = (DoanhMuc)ViewData["dm"];
+
+        }
+        @foreach (var dm in DM.doanhmuc)
+        {
+            <li class="nav-item" style="list-style-type:none">
+                <a class=" nav-link" href="/Home/Doanhmuc/@dm.MaDM">
+                    @dm.TenDM
+                </a>
+            </li>
+        }
+    </ul>
+}
+
+
+@section spbanchay{
+
+
+    @{
+        var SPBC = (SanPhamBanChay)ViewData["spbc"];
+
+    }
+    @foreach (var spbc in SPBC.spbc)
+    {
+
+        <li class="nav-item" style="list-style-type:none">
+            <a class="nav-link " style="color: #dd4b39;" href="/Home/SanPhamBanChay/@spbc.MaSP">
+                <div class="row" style="width: 100%;">
+
+                    <div class="col-sm-6 ">
+                        <img class="img-thumbnail" src="~/assets/img/anhsanpham/@spbc.HinhAnh" alt="" style="height:80px; width: 100%;">
+                    </div>
+                    <div class="col-sm-6 ">
+                        <b>@spbc.TenSP</b>
+                        <br>
+                        <p><del>@spbc.GiaBan</del>  @spbc.GiamGia</p>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+    }
+
+}
+
+
+
+

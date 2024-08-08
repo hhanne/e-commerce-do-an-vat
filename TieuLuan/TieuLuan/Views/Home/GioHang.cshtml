@@ -1,0 +1,153 @@
+﻿@using TieuLuan.Models;
+@model GioHang
+
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_LayoutPage3.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .product-list {
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .cart {
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .product-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .product-details {
+            flex-grow: 1;
+        }
+
+        .quantity {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .quantity-input {
+            width: 40px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .cart-item {
+            margin-bottom: 15px;
+        }
+
+        .cart-item-total {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .button {
+            background-color: #f8d0d2;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+            .button:hover {
+                background-color: #f8B5c1;
+            }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="product-list" style="margin-top:100px">
+            <h2>SẢN PHẨM</h2>
+            @{
+                decimal totalPrice = 0;
+            }
+            @foreach (var s in Model.gh)
+            {
+                <div class="product">
+                    <img src="~/assets/img/anhsanpham/@s.HinhAnh" alt="Product Image" class="product-image">
+                    <div class="product-details">
+                        <h3>@s.TenSP</h3>
+                        <p>Giá: @s.GiaBan</p>
+                        <div class="quantity">
+                            <button class="btn-decrease" data-id="@s.MaSP">-</button>
+                            <input id="@s.MaSP" type="number" min="1" value="@s.SoLuong" class="quantity-input">
+                            <button class="btn-increase" data-id="@s.MaSP">+</button>
+                            <a href="/Home/XoaSP/?id=@s.MaSP" class="btn btn-danger ms-3">Xóa</a>
+                        </div>
+                    </div>
+                </div>
+                totalPrice += s.TongTien;
+            }
+            <a href="/Home/products" style="text-decoration:none" class="button">TIẾP TỤC XEM SẢN PHẨM</a>
+        </div>
+        <div class="cart" style="margin-top:100px">
+            <h2>CỘNG GIỎ HÀNG</h2>
+            <div class="cart-item">
+                <p>Tổng</p>
+                <p class="cart-item-total">@totalPrice</p>
+            </div>
+            <a class="button" href="/Home/ThanhToan" style="text-decoration:none; ">TIẾN HÀNH THANH TOÁN</a>
+            <div class="cart-item" style="margin-top:20px">
+                <p>Phiếu ưu đãi</p>
+                <input type="text" placeholder="Mã ưu đãi">
+                <button class="button">Áp dụng</button>
+            </div>
+            <div>
+                <a class="btn btn-danger" href="/Home/XoaGioHang">Xóa giỏ hàng</a>
+            </div>
+        </div>
+    </div>
+    <script>
+    $(document).ready(function () {
+        $(document).on('click', '.btn-decrease', function () {
+            var id = $(this).data('id');
+            var currentval = Number($('#' + id).val()) - 1;
+            if (currentval > 0) {
+                $('#' + id).val(currentval);
+            }
+        })
+
+        $(document).on('click', '.btn-increase', function () {
+            var id = $(this).data('id');
+            var currentval = Number($('#' + id).val()) + 1;
+            $('#' + id).val(currentval);
+        })
+    })
+    </script>
+
+</body>
+</html>
+

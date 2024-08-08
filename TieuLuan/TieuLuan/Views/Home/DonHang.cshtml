@@ -1,0 +1,73 @@
+﻿@using TieuLuan.Models
+@model DonHang
+@{
+    ViewBag.Title = "DonHang";
+    Layout = "~/Views/Shared/_LayoutPage3.cshtml";
+}
+
+<div style="height:80px"></div>
+<div class="container mt-3" style="min-height:231px">
+
+    <table class="table table-hover" style="text-align:center">
+        <thead>
+            <tr>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+                <th>Địa chỉ</th>
+                <th>Ngày đặt</th>
+                <th>Trạng thái</th>
+                <th>Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Tổng tiền</th>
+                <th>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.sp != null && Model.sp.Any())
+            {
+                foreach (var s in Model.sp)
+                {
+                    <tr>
+                        <td>@s.TenKH</td>
+                        <td>@s.Email</td>
+                        <td>@s.SDT</td>
+                        <td>@s.DiaChi</td>
+                        <td>@s.NgayDat</td>
+                        @if (@s.TrangThai == 1)
+                        {
+                            <td>Đang giao</td>
+                        }
+                        else if (@s.TrangThai == 2)
+                        {
+                            <td class="text-danger">Đã hủy</td>
+                        }
+                        else
+                        {
+                            <td>Chưa giao</td>
+                        }
+
+                        <td><a href="/home/SanPhamBanChay/@s.MaSP" style="text-decoration:none">@s.TenSP</a></td>
+                        <td>@s.SoLuong</td>
+                        <td>@s.TongTien</td>
+                        <td>
+                            @if (@s.TrangThai != 2)
+                            {
+                                <a class="btn btn-danger" href="/home/HuyDonHang/?iddh=@s.MaDH">HỦY</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="9">Không có đơn hàng nào được tìm thấy.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

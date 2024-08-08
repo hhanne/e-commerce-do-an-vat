@@ -1,0 +1,17 @@
+﻿@model TieuLuan.Models.DoanhMuc
+@{
+    ViewBag.Title = "EditDM";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+
+@using (Html.BeginForm("EditDM", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.HiddenFor(model => model.MaDM)
+    <div class="form-group">
+        @Html.LabelFor(model => model.TenDM)
+        @Html.TextBoxFor(model => model.TenDM, new { @class = "form-control" })
+    </div>
+    
+    <button type="submit" class="btn btn-success">Lưu</button>
+}
+

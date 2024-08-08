@@ -1,0 +1,150 @@
+﻿@using TieuLuan.Models;
+@model ChiTietSanPham
+@{
+    ViewBag.Title = "product_detail";
+    Layout = "~/Views/Shared/_LayoutPage4.cshtml";
+}
+    
+@foreach (var s in Model.sp)
+{
+    <div class="col-sm-12 col-md-9 col-lg-9" style="min-height: 800px ">
+        <div class="col-sm-12 col-md-9 col-lg-9">
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <div style="margin:0; width:100%">
+                        <img class="img-thumbnail" src="~/assets/img/anhsanpham/@s.HinhAnh" style="width:100%; border-radius:10px" />
+                        <div style="border: 1px dashed var(--bg-color); margin-top:20px; border-radius: 5px;">
+                            <p style="padding-left:20px"><b>Mô tả sản phẩm:</b></p>
+                            <br />
+                            <p>@s.MoTa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h4 style="font-family: Arial, Helvetica, sans-serif; font-weight: 100; color: black;">@s.TenSP</h4>
+                    <hr style=" width: 100px; height: 3px; border-radius: 5px; background-color: black;">
+
+                    <del style="color: red; font-size: 20px;">@s.GiaBan</del>
+                    <strong style="color: red; padding-left: 30px; font-size: 20px;">@s.GiamGia</strong>
+
+                    <div class="sale" style="margin-top: 20px;
+              border: 1px groove var(--bg-color);
+              padding: 10px;
+              border-radius: 10px;"
+                        <h5> Khuyến mãi hot nhất</h5>
+                        <ul>
+                            <li><i class="ti-gift"></i> Miễn phí vận chuyển với đơn hàng 200k</li>
+                            <li><i class="ti-gift"></i> Giftcard lên tới 100K</li>
+                            <li><i class="ti-gift"></i> Tích được 5 điểm cho đơn 50k</li>
+                        </ul>
+                    </div>
+                    <form action="/action_page.php" method="post">
+                        <div style="margin: 10px 0;">
+                            <label for="quantity"> Số lượng: </label>
+                            <div class="quantity">
+                                <button class="btn-decrease" data-id="@s.MaSP">-</button>
+                                <input id="@s.MaSP" type="number" min="1" value="1" class="quantity-input">
+                                <button class="btn-increase" data-id="@s.MaSP">+</button>
+                                <a href="/Home/XoaSP/?id=@s.MaSP" class="btn btn-danger ms-3">Xóa</a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="cars" style="padding-right: 32px;">Loại:</label>
+                            <select id="cars" name="cars">
+                                <option value="volvo">1 người</option>
+                                <option value="saab">2 người</option>
+                                <option value="fiat">5 người</option>
+                            </select>
+
+                        </div>
+                        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4" style="width: 100%; margin-top:20px; background-color: #f8d0d2; border:none; color: black">Thêm vào giỏ hàng</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+}
+        <div class="Feedback">
+            <div class="cf-title-03">
+                <h3>Feedback</h3>
+                <form action="">
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <label for="fname">Name:</label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Email:</label>
+                            <input type="email" id="lname" name="lname"><br><br>
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg-8" style="margin-top: -40px;">
+                            <p><label for="w3review">Feedback:</label></p>
+                            <textarea id="w3review" name="w3review" rows="3" cols="50"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" style="background-color: var(--bg-color); border: none; border-radius: 5px; " value="Gửi">
+                </form>
+            </div>
+        </div>
+        <div style="margin-top:50px">
+            <div class="cf-title-03">
+                <h3>Sản phẩm liên quan:</h3>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="cont" style="height: 200px;">
+                            <div class="product-card" style="">
+                                <div class="product-card__image">
+                                    <img src="~/assets/img/banner/bn.jpg" />
+                                </div>
+                                <div class="product-card__info">
+                                    <h2 class="product-card__title">TenSP</h2>
+                                    <p class="product-card__description"><del>GiaBan</del></p>
+                                    <div class="product-card__price-row">
+                                        <span class="product-card__price">GiamGia</span>
+                                        <button class="product-card__btn">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@section trai{
+
+    <ul>
+
+        @{
+            var DM = (DoanhMuc)ViewData["dm"];
+
+        }
+        @foreach (var dm in DM.doanhmuc)
+        {
+            <li class="nav-item" style="list-style-type:none">
+                <a class=" nav-link" href="/Home/Doanhmuc/@dm.MaDM">
+                    @dm.TenDM
+                </a>
+            </li>
+        }
+    </ul>
+}
+@section spbanchay{
+
+    <ul>
+        @{
+            var SPBC = (SanPhamBanChay)ViewData["spbc"];
+
+        }
+        @foreach (var spbc in SPBC.spbc)
+        {
+            <li class="nav-item" style="list-style-type:none">
+                <a class=" nav-link" href="/Home/SanPhamBanChay/@spbc.MaSP">
+                    @spbc.TenSP
+                </a>
+            </li>
+
+        }
+    </ul>
+}

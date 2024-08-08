@@ -1,0 +1,63 @@
+﻿@model IEnumerable<TieuLuan.Models.DoanhMuc>
+
+    @{
+        ViewBag.Title = "DSDanhMuc";
+        Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+    }
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DSDanhMuc</title>
+    <style>
+        .content-section {
+            display: block; 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content-section" id="manage-list">
+        <h2>Danh mục sản phẩm</h2>
+
+        <p>
+            <a href="@Url.Action("CreateDM")" class="btn btn-success">Thêm danh mục</a>
+        </p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id_DM</th>
+                    <th>Tên danh mục</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.MaDM</td>
+                        <td>@item.TenDM</td>
+                        <td>
+                            <a href="@Url.Action("EditDM", new { id = item.MaDM })" class="btn btn-primary">Sửa</a>
+                            @using (Html.BeginForm("DeleteDM", "Admin", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("id", item.MaDM)
+    <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?');">Xóa</button>
+}
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+

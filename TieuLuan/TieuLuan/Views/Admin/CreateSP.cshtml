@@ -1,0 +1,41 @@
+﻿@model TieuLuan.Models.SanPham
+
+@{
+    ViewBag.Title = "Thêm sản phẩm";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+
+<h2>Thêm sản phẩm mới</h2>
+
+@using (Html.BeginForm("CreateSP", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.MaDM,"Mã danh mục")
+        @Html.TextBoxFor(model => model.MaDM, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.TenSP,"Tên sản phẩm")
+        @Html.TextBoxFor(model => model.TenSP, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.GiaBan,"Giá bán")
+        @Html.TextBoxFor(model => model.GiaBan, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.GiamGia,"Giá giảm")
+        @Html.TextBoxFor(model => model.GiamGia, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.MoTa,"Mô tả")
+        @Html.TextBoxFor(model => model.MoTa, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.SPNB,"Sản phẩm nổi bật(0-Không nổi bật,1-Nổi bật)")
+        @Html.TextBoxFor(model => model.SPNB, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.HinhAnh, "Chọn file hình ảnh")
+        <input type="file" name="HinhAnh" class="form-control" accept="image/*" />
+    </div>
+    <button type="submit" class="btn btn-success">Lưu</button>
+}

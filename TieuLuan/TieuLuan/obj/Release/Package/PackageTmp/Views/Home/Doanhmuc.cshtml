@@ -1,0 +1,93 @@
+﻿@using TieuLuan.Models;
+@model SanPhamNoiBac
+@{
+    ViewBag.Title = "products";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="row">
+    @foreach (var s in Model.danhsach)
+{
+    <div class="col-sm-12 col-md-6 col-lg-3" style="margin-bottom:120px;">
+        <div class="cont">
+            <div class="product-card" style="height:500px; ">
+                <div class="product-card__image">
+                    <img src="~/assets/img/anhsanpham/@s.HinhAnh" />
+                </div>
+                <div class="product-card__info">
+                    <a href="/Home/SanPhamBanChay/@s.MaSP" style="text-decoration:none; color:black"><h2 class="product-card__title" style="font-size:25px">@s.TenSP</h2></a>
+                    <p class="product-card__description"><del>@s.GiaBan</del></p>
+                    <div class="product-card__price-row">
+                        <span class="product-card__price">@s.GiamGia</span>
+
+                        <a class="btn btn-primary add-cart product-card__btn" href="/Home/ThemVaoGioHang/?id=@s.MaSP">Thêm vào giỏ hàng</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+</div>
+@section trai{
+
+    <ul>
+
+        @{
+            var DM = (DoanhMuc)ViewData["dm"];
+
+        }
+        @foreach (var dm in DM.doanhmuc)
+        {
+            <li class="nav-item" style="list-style-type:none">
+                <a class=" nav-link" href="/Home/Doanhmuc/@dm.MaDM">
+                    @dm.TenDM
+                </a>
+            </li>
+        }
+    </ul>
+}
+
+
+@section spbanchay{
+
+
+    @{
+        var SPBC = (SanPhamBanChay)ViewData["spbc"];
+
+    }
+    @foreach (var spbc in SPBC.spbc)
+    {
+
+        <li class="nav-item" style="list-style-type:none">
+            <a class="nav-link " style="color: #dd4b39;" href="/Home/SanPhamBanChay/@spbc.MaSP">
+                <div class="row" style="width: 100%;">
+
+                    <div class="col-sm-6 ">
+                        <img class="img-thumbnail" src="~/assets/img/anhsanpham/@spbc.HinhAnh" alt="" style="height:80px; width: 100%;">
+                    </div>
+                    <div class="col-sm-6 ">
+                        <b>@spbc.TenSP</b>
+                        <br>
+                        <p><del>@spbc.GiaBan</del>  @spbc.GiamGia</p>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,232 @@
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\news\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\news\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\news\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\news\nhom12\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\news\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.AssemblyReference.cache
+D:\news\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.CoreCompileInputs.cache
+D:\news\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.CopyComplete
+D:\news\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\news\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\news\nhom12\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.AssemblyReference.cache
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.CoreCompileInputs.cache
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.CopyComplete
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+C:\Users\US\Documents\Zalo Received Files\nhom12\nhom12\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TIEULUAN\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+D:\mới\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\mới\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\mới\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\mới\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\mới\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\mới\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\mới\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\mới\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\TieuLuan1\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\TieuLuan1\TieuLuan1\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.AssemblyReference.cache
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.CoreCompileInputs.cache
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csproj.CopyComplete
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+C:\Users\US\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\KY_THUAT_LAP_TRINH\LAP_TRINH_Web\tieuluan5 (2)\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.dll.config
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\TieuLuan.pdb
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\Microsoft.Web.Infrastructure.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Helpers.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Mvc.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Razor.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Razor.xml
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.xml
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Deployment.xml
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Webpages.Razor.xml
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Helpers.xml
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\bin\System.Web.Mvc.xml
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.csprojResolveAssemblyReference.cache
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.dll
+D:\tiieuluan8-8\tieuluan5\TieuLuan\TieuLuan\obj\Debug\TieuLuan.pdb

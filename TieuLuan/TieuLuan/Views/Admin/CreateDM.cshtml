@@ -1,0 +1,17 @@
+﻿@model TieuLuan.Models.DoanhMuc
+@{
+    ViewBag.Title = "CreateDM";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+
+<h2>Thêm danh mục</h2>
+@using (Html.BeginForm("CreateDM", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.TenDM)
+        @Html.TextBoxFor(model => model.TenDM, new { @class = "form-control" })
+    </div>
+    
+    <button type="submit" class="btn btn-success">Lưu</button>
+}
+

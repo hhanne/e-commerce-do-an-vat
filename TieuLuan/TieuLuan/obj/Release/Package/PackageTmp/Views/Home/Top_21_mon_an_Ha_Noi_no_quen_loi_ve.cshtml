@@ -1,0 +1,88 @@
+﻿@using TieuLuan.Models;
+@model SanPham
+@{
+    ViewBag.Title = "Top_21_mon_an_Ha_Noi_no_quen_loi_ve";
+    Layout = "~/Views/Shared/_LayoutPage4.cshtml";
+}
+
+<div class="card">
+    <img src="/assets/img/news/tong-hop-cach-lam-cac-mon-an-vat-ha-noi-thom-ngon-don-gian-de-avt-1200x676.jpg" class="card-img-top" alt="Card image" width="600" height="532">
+    <div class="card-body">
+        <h1 class="card-title">21 món ăn mới lạ ở Hà Nội đảm bảo “no quên lối về”</h1>
+        <p class="card-text">
+            <h5>1. Gà rán ốc quế, nui phô mai ốc quế – Pizza Cone</h5>
+            <h5>2.Bánh Crepe – Le Moon Crepe</h5>
+            <h5>3.Milo đá bào</h5>
+            <h5>4.Sữa chua dẻo trộn hoa quả – Quán cà phê Tuấn</h5>
+            <h5>5.Chuối nếp nướng</h5>
+            <h5>6.Mì xào giòn – Mì xào Long Phương</h5>
+            <h5>7.Bánh mì mực – Bánh mì sư phụ</h5>
+            <h5>8.Bánh mì nem khoai – Cô Ngà</h5>
+            <h5>9.Bánh chưng rán</h5>
+            <h5>10.Trứng chén nướng – Cô Ty</h5>
+            <h5>11.Xôi trứng thịt – Xôi cô Sòn</h5>
+            <h5>12.Miến trộn mực</h5>
+            <h5>13.Mỳ gà tần</h5>
+            <h5>14.Há cảo, bánh tôm chiên</h5>
+            <h5>15.Bánh phô mai Nhật Bản, bánh tart phô mai – Naonao Cheesecake & Tart</h5>
+            <h5>16.Ốc các loại – Ốc Hà Trang</h5>
+            <h5>17.Bánh đa, miến trộn</h5>
+            <h5>18.Viên cá bọc thịt – Bún cá sâm Cây Si</h5>
+            <h5>19.Nộm chân gà rút xương – Chè Xoan</h5>
+            <h5>20.Nộm xoài</h5>
+            <h5>Mì – hủ tíu khô</h5>
+        </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+</div>
+@section trai{
+
+    <ul>
+
+        @{
+            var DM = (DoanhMuc)ViewData["dm"];
+
+        }
+        @foreach (var dm in DM.doanhmuc)
+        {
+            <li class="nav-item" style="list-style-type:none">
+                <a class=" nav-link" href="/Home/Doanhmuc/@dm.MaDM">
+                    @dm.TenDM
+                </a>
+            </li>
+        }
+    </ul>
+}
+
+
+@section spbanchay{
+
+
+    @{
+        var SPBC = (SanPhamBanChay)ViewData["spbc"];
+
+    }
+    @foreach (var spbc in SPBC.spbc)
+    {
+
+        <li class="nav-item" style="list-style-type:none">
+            <a class="nav-link " style="color: #dd4b39;" href="/Home/SanPhamBanChay/@spbc.MaSP">
+                <div class="row" style="width: 100%;">
+
+                    <div class="col-sm-6 ">
+                        <img class="img-thumbnail" src="~/assets/img/anhsanpham/@spbc.HinhAnh" alt="" style="height:80px; width: 100%;">
+                    </div>
+                    <div class="col-sm-6 ">
+                        <b>@spbc.TenSP</b>
+                        <br>
+                        <p><del>@spbc.GiaBan</del>  @spbc.GiamGia</p>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+    }
+
+}
+
+

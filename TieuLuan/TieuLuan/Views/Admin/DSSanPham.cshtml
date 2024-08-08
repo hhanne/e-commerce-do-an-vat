@@ -1,0 +1,50 @@
+﻿@model IEnumerable<TieuLuan.Models.SanPham>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+<p>
+    <a href="@Url.Action("CreateSP")" class="btn btn-success">Thêm sản phẩm</a>
+</p>
+@if (ViewBag.ErrorMessage != null)
+{
+<div class="alert alert-danger">
+    @ViewBag.ErrorMessage
+</div>}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID_SP</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Giảm Giá</th>
+            <th>Hình Ảnh</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaSP</td>
+                <td>@item.TenSP</td>
+                <td>@item.GiaBan</td>
+                <td>@item.GiamGia</td>
+                <td><img src="~/assets/img/anhsanpham/@item.HinhAnh" width="100" /></td>
+                <td>
+                    <a href="@Url.Action("EditSP", new { id = item.MaSP })" class="btn btn-primary">Sửa</a>
+                    @using (Html.BeginForm("DeleteSP", "Admin", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.Hidden("id", item.MaSP)
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?');">Xóa</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

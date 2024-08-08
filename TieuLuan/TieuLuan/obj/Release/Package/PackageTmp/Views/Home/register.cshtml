@@ -1,0 +1,132 @@
+﻿@{
+    ViewBag.Title = "register";
+    Layout = "~/Views/Shared/_LayoutPage3.cshtml";
+}
+<div style="height:70px"></div>
+<section class="h-100 bg-dark" style="width:100%; margin: 0 auto">
+    <form action="/Home/ProcessRegister" method="post">
+        <div class="container py-5 h-100" style="width:70%">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card card-registration my-4">
+                        <div class="row g-0">
+                            <div class="col-xl-6 d-none d-xl-block">
+                                <img src="~/assets/img/register.jpg"
+                                     alt="Sample photo" class="img-fluid"
+                                     style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem; height:100%" />
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="card-body p-md-5 text-black">
+                                    <h3 class="mb-5 text-uppercase" style="text-align:center">Đăng Ký</h3>
+                                    <form action="/Home/login" method="post">
+                                        <div class="row">
+                                            <div class="col-md-6 mb-4">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <label class="form-label" for="form3Example1m">First name(Tên):</label>
+                                                    <input type="text" id="form3Example1m" class="form-control form-control-lg" placeholder="Enter First name:" name="fname" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <label class="form-label" for="form3Example1n">Last name(Họ):</label>
+                                                    <input type="text" id="form3Example1n" class="form-control form-control-lg" placeholder="Enter Last name:" name="lname" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example9">FullName(Họ và tên):</label>
+                                            <input type="text" id="form3Example9" class="form-control form-control-lg" placeholder="Enter Full name:" name="fullname" />
+                                        </div>
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example97">Email:</label>
+                                            <input type="text" id="form3Example97" class="form-control form-control-lg" placeholder="Enter Email" name="email" />
+
+                                            <div data-mdb-input-init class="form-outline mb-4">
+                                                <label class="form-label" for="form3Example90">Password(Mật khẩu):</label>
+                                                <input type="password" id="form3Example90" class="form-control form-control-lg" placeholder="Enter Password:" name="pws" />
+                                            </div>
+
+                                            <div data-mdb-input-init class="form-outline mb-4">
+                                                <label class="form-label" for="form3Example99">Enter Password Again(Nhập lại mật khẩu):</label>
+                                                <input type="password" id="form3Example99" class="form-control form-control-lg" placeholder="Enter Password Again:" name="pwsa" />
+                                            </div>
+                                        </div>
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example9">Phone(Số điện thoại):</label>
+                                            <input type="text" id="form3Example9" class="form-control form-control-lg" placeholder="Enter Phone:" name="phone" />
+                                        </div>
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example8">Address(Địa chỉ):</label>
+                                            <input type="text" id="form3Example8" class="form-control form-control-lg" placeholder="Enter Address:" name="address" />
+                                        </div>
+
+                                        <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+
+                                            <h6 class="mb-0 me-4">Gender(Giới tính): </h6>
+
+                                            <div class="form-check form-check-inline mb-0 me-4">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                                                       value="option1" />
+                                                <label class="form-check-label" for="femaleGender">Female</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline mb-0 me-4">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                                                       value="option2" />
+                                                <label class="form-check-label" for="maleGender">Male</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline mb-0">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                                                       value="option3" />
+                                                <label class="form-check-label" for="otherGender">Other</label>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                    @*<div class="row">
+                                            <div class="col-md-6 mb-4">
+
+                                                <select data-mdb-select-init>
+                                                    <option value="1">State</option>
+                                                    <option value="2">Option 1</option>
+                                                    <option value="3">Option 2</option>
+                                                    <option value="4">Option 3</option>
+                                                </select>
+
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+
+                                                <select data-mdb-select-init>
+                                                    <option value="1">City</option>
+                                                    <option value="2">Option 1</option>
+                                                    <option value="3">Option 2</option>
+                                                    <option value="4">Option 3</option>
+                                                </select>
+
+                                            </div>
+                                        </div>*@
+
+
+
+
+
+
+
+                                    <div class="d-flex justify-content-end pt-3">
+                                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-light btn-lg">Reset all</button>
+                                        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-warning btn-lg ms-2">Đăng Ký</button>
+
+                                        @*<button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-warning btn-lg ms-2">Đăng Ký</button>*@
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
